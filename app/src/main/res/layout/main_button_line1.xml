@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Copy"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_copy"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Persent"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_persent"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_7"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_7"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_4"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_4"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_1"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_1"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_PlusMinusSign"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_plusminussign"/>
+
+</LinearLayout>

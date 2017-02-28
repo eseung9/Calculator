@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Division"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_division"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Multiply"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_multiply"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Minus"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_minus"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Plus"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_plus"/>
+
+    <ImageButton
+        android:id="@+id/idImgBtn_Equals"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:src="@drawable/up_equals"/>
+
+</LinearLayout>
