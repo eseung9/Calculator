@@ -13,7 +13,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_c"/>
+        android:src="@drawable/switch_c"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_EndBrackets"
@@ -24,7 +24,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_endbrackets"/>
+        android:src="@drawable/switch_endbrackets"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_9"
@@ -35,7 +35,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_9"/>
+        android:src="@drawable/switch_9"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_6"
@@ -46,7 +46,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_3"/>
+        android:src="@drawable/switch_6"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_3"
@@ -57,7 +57,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_3"/>
+        android:src="@drawable/switch_3"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_Period"
@@ -68,6 +68,6 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_period"/>
+        android:src="@drawable/switch_period"/>
 
 </LinearLayout>

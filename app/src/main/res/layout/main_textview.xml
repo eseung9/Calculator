@@ -5,13 +5,21 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/idTV_Result"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="600" />
+        android:layout_weight="600"
+        android:text="0123456789"
+        android:textSize="100sp"
+        android:textColor="#FFE600"/>
 
     <TextView
+        android:id="@+id/idTV_Equation"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="380" />
+        android:layout_weight="380"
+        android:text="0123456789"
+        android:textSize="70sp"
+        android:textColor="#ABF200"/>
 
 </LinearLayout>

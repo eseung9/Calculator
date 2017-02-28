@@ -13,7 +13,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_division"/>
+        android:src="@drawable/switch_division"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_Multiply"
@@ -24,7 +24,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_multiply"/>
+        android:src="@drawable/switch_multiply"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_Minus"
@@ -35,7 +35,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_minus"/>
+        android:src="@drawable/switch_minus"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_Plus"
@@ -46,7 +46,7 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_plus"/>
+        android:src="@drawable/switch_plus"/>
 
     <ImageButton
         android:id="@+id/idImgBtn_Equals"
@@ -57,6 +57,6 @@
         android:padding="1dp"
         android:scaleType="fitXY"
         android:onClick="onClick"
-        android:src="@drawable/up_equals"/>
+        android:src="@drawable/switch_equals"/>
 
 </LinearLayout>
