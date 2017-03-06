@@ -9,10 +9,10 @@ import java.util.List;
 
 public class Define {
 
-    public String sEquation = new String();
-    public String sResult = new String();
+    public String sEquation = "";
+    public String sResult = "";
+    public boolean bUnsingde = false;
     public List lEquation = new LinkedList();
-
 
     /**
      * @author -SweetyCat-

@@ -5,6 +5,7 @@ import android.graphics.Typeface;
 import android.widget.TextView;
 
 import kr.sweetycat.carculator.R;
+import kr.sweetycat.carculator.common.Define;
 
 /**
  * Created by Yi on 2017-03-01.
@@ -28,4 +29,17 @@ public class Main {
         tvEquation.setTypeface(Typeface.createFromAsset(aMain.getAssets(), "DINRegular.ttf"));
 
     }
+
+
+//    public void setEquationTextView() {
+//        TextView tvEquation = (TextView)aMain.findViewById(R.id.idTV_Equation);
+//        tvEquation.setText(Define.ins().sEquation);
+//
+//    }
+//
+//    public void setResultTextView() {
+//        TextView tvResult = (TextView)aMain.findViewById(R.id.idTV_Result);
+//        tvResult.setText(Define.ins().sResult);
+//    }
+
 }
